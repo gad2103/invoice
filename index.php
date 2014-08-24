@@ -133,7 +133,7 @@
 		
 		<div id="terms">
 		  <h5>Terms</h5>
-		  <textarea>Cash | Check | Venmo</textarea>
+		  <textarea>Cash | Check | Venmo | Chase Transfer</textarea>
 		</div>
 	
 	</div>
