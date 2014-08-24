@@ -55,7 +55,8 @@
 		
 		<div id="customer">
             <div class="user"><span class=""></span></div>
-            <textarea id="customer-title">thank you for your business: client name</textarea>
+            <textarea id="customer-title">thank you:
+client name</textarea>
             <div class="user"><span class=""></span></div>
             <table id="meta" class="table table-condensed">
                 <tr>
