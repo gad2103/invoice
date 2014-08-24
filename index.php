@@ -54,9 +54,9 @@
 		<div style="clear:both"></div>
 		
 		<div id="customer">
-            <div class="user"><span class="glyphicon glyphicon-heart"></span></div>
+            <div class="user"><span class=""></span></div>
             <textarea id="customer-title">thank you for your business: client name</textarea>
-            <div class="user"><span class="glyphicon glyphicon-heart"></span></div>
+            <div class="user"><span class=""></span></div>
             <table id="meta" class="table table-condensed">
                 <tr>
                     <td class="meta-head">Invoice #</td>
@@ -79,7 +79,7 @@
 		<table id="items" class="table table-condensed table-striped">
 		
 		  <tr>
-		      <th>Massage Type</th>
+		      <th>Date of Service</th>
 		      <th>Description</th>
 		      <th>Cost</th>
 		      <th>Quantity</th>
@@ -87,20 +87,20 @@
 		  </tr>
 		  
 		  <tr class="item-row">
-		      <td class="item-name"><div class="delete-wpr"><textarea>Web Updates</textarea><a class="delete" href="javascript:;" title="Remove row">X</a></div></td>
-		      <td class="description"><textarea>Monthly web updates for http://widgetcorp.com (Nov. 1 - Nov. 30, 2009)</textarea></td>
-		      <td><textarea class="cost">$650.00</textarea></td>
+		      <td class="item-name"><div class="delete-wpr"><textarea>07/01/2123</textarea><a class="delete" href="javascript:;" title="Remove row">X</a></div></td>
+		      <td class="description"><textarea>90 min deep tissue massage</textarea></td>
+		      <td><textarea class="cost">$150.00</textarea></td>
 		      <td><textarea class="qty">1</textarea></td>
-		      <td><span class="price">$650.00</span></td>
+		      <td><span class="price">$150.00</span></td>
 		  </tr>
 		  
 		  <tr class="item-row">
-		      <td class="item-name"><div class="delete-wpr"><textarea>SSL Renewals</textarea><a class="delete" href="javascript:;" title="Remove row">X</a></div></td>
+		      <td class="item-name"><div class="delete-wpr"><textarea>07/17/2123</textarea><a class="delete" href="javascript:;" title="Remove row">X</a></div></td>
 
-		      <td class="description"><textarea>Yearly renewals of SSL certificates on main domain and several subdomains</textarea></td>
-		      <td><textarea class="cost">$75.00</textarea></td>
+		      <td class="description"><textarea>110 min thai massage</textarea></td>
+		      <td><textarea class="cost">$175.00</textarea></td>
 		      <td><textarea class="qty">3</textarea></td>
-		      <td><span class="price">$225.00</span></td>
+		      <td><span class="price">$525.00</span></td>
 		  </tr>
 		  
 		  <tr id="hiderow">
@@ -133,7 +133,7 @@
 		
 		<div id="terms">
 		  <h5>Terms</h5>
-		  <textarea>Cash | Check | Venmo.</textarea>
+		  <textarea>Cash | Check | Venmo</textarea>
 		</div>
 	
 	</div>
