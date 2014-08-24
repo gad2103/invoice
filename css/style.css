@@ -85,6 +85,9 @@ top: 18px;
 	font-size: 26px;
 	word-spacing: -5px;
 }
+.superscript {
+	vertical-align: super;
+}
 
 .user {
 	font-size: 40px;
