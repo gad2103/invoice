@@ -8,7 +8,7 @@
  * google fonts
  * ====================*/
 
-@import url(http://fonts.googleapis.com/css?family=Lato:100,200,300,400,900&effect=stonewash);
+@import url(http://fonts.googleapis.com/css?family=Lato:100,200,300,400,900);
 
 
 * { margin: 0; padding: 0; }
@@ -22,7 +22,7 @@ textarea { border: 0; font-size: 14px; overflow: hidden; resize: none; }
 #address { /* font-family: 'Nothin You Could Do', cursive; */ font-weight: bold; text-align: center; margin-top: 14px; padding-bottom: 10px; letter-spacing: 3px; margin-bottom: 10px;}
 #customer { overflow: hidden; text-align: center; padding-top: 15px;}
 
-#logo { text-align: center; border-bottom: 6px solid; height: 88px; overflow: hidden;}
+#logo { text-align: center; border-bottom: 4px solid; height: 81px; overflow: hidden;}
 #logo h1 {font-style:normal; font-weight: 400; text-transform:uppercase; font-size: 4em;line-height: 37px;margin-top: 0px;padding-top: 10px;letter-spacing: 5px;}
 /*#logo:hover, #logo.edit { border: 1px solid #000; margin-top: 0px; max-height: 125px; }*/
 #logoctr { display: none; }
@@ -32,7 +32,7 @@ textarea { border: 0; font-size: 14px; overflow: hidden; resize: none; }
 .edit #logohelp { display: block; }
 .edit #save-logo, .edit #cancel-logo { display: inline; }
 .edit #image, #save-logo, #cancel-logo, .edit #change-logo, .edit #delete-logo { display: none; }
-#customer-title { font-size: 34px; display: inline-table; vertical-align: middle; font-family: 'Pinyon Script', cursive; font-weight: bold; width: 375px; text-align: center; margin-bottom: -4px;}
+#customer-title { font-size: 34px; display: inline-table; vertical-align: middle; font-family: 'Pinyon Script', cursive; font-weight: bold; width: 375px; text-align: center; margin-bottom: -4px; border-top: 1px dashed; border-bottom: 1px dashed; padding: 10px;}
 
 #meta { margin-top: 24px; width: 300px; display: inline-block; margin-bottom: 38px;}
 #meta td { text-align: right;  }
@@ -75,18 +75,16 @@ font-size: 2em;
 font-weight: 300;
 top: 18px;
 }
-#identity, #terms{
-	background:#343C7B; 
-	color: rgb(202, 185, 139);
+#identity, #terms, #terms textarea{
+	/* background: #343C7B; */ 
+	color: #343C7B;
 	-webkit-print-color-adjust: exact;
+	text-shadow: 1px 1px rgb(202, 185, 139);
 }
 .curly{
 	font-family: 'Pinyon Script', cursive;
 	font-size: 26px;
 	word-spacing: -5px;
-}
-.superscript {
-	vertical-align: super;
 }
 
 .user {
@@ -105,6 +103,8 @@ top: 18px;
 	background-repeat: no-repeat;
 	background-position-y: 15px;
 	background-position-x: 5px;
+	position: relative;
+	top: 20px;
 }
 .user span {
 	line-height: 60px;
