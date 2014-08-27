@@ -53,7 +53,7 @@ textarea { border: 0; font-size: 14px; overflow: hidden; resize: none; }
 #items td.blank { border: 0; /* background: none; */}
 
 #terms { text-align: center; margin: 46px 0 0 0; padding: 10px; min-height: 130px;}
-#terms h5 { text-transform: uppercase; letter-spacing: 6px; border-bottom: 1px solid; padding: 0 0 8px 0; margin: 0 0 8px 0; }
+#terms h5 { text-transform: uppercase; letter-spacing: 6px; border-bottom: 2px solid; padding: 0 0 8px 0; margin: 0 0 8px 0; }
 #terms textarea { width: 100%; text-align: center; margin-top: 20px; spellcheck: false;}
 
 textarea:hover, textarea:focus, #items td.total-value textarea:hover, #items td.total-value textarea:focus, .delete:hover { background-color:#EEFF88; }
