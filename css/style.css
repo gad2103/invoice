@@ -101,8 +101,7 @@ top: 18px;
 	background-image: url(../images/lotus.png);
 	background-size: 50px;
 	background-repeat: no-repeat;
-	background-position-y: 15px;
-	background-position-x: 5px;
+    background-position: 5px 15px;
 	position: relative;
 	top: 20px;
 }
